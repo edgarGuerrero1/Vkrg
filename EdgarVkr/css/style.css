@@ -1,0 +1,26 @@
+.body{
+	width: 1000px;
+	height: 1000px;
+	border: 1px solid red;
+	margin: auto;
+	display: inline-block;
+
+}
+
+.cont1{
+	width: 195px;
+	height: 990px;
+	border: 1px solid orange;
+	margin-left: 5px;
+	margin-top: 5px;
+	display: inline-block;
+}
+
+.cont2{
+	width: 780px;
+	height: 990px;
+	border: 1px solid teal;
+	margin-left: 5px;
+	margin-top: 5px;
+	display: inline-block;
+}
