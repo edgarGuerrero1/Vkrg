@@ -41,6 +41,14 @@
 					<input type="file" class="form-control" name="foto" id="foto" required placeholder="ingresa la imagen"></input></br>
 					<input type="submit" class="btn btn-dark wForm" name="enviar"></input>
 				</div>
+			</form>
+			<br>	
+			<form action="ServletImgPrincipal.php" method="post" class="wForm" enctype="multipart/form-data">
+				<div class="form-group">
+					<label>Dar de foto principal index</label><br>
+					<input type="file" class="form-control" name="fotoIndex" id="fotoIndex" required placeholder="ingresa la imagen"></input></br>
+					<input type="submit" class="btn btn-dark wForm" name="enviar"></input>
+				</div>
 			</form>	
 			<br>
 			<form action="servletCostoCompra.php" method="post" class="wForm">

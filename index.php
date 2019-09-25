@@ -3,11 +3,19 @@
 <head>
 	<title>index php</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
 </head>
 <body>
 	<div class="body">
-		<div class="nav">
-			<a href="AltaVkr.php">dar de alta</a><br>
+		<div class="navbar navbar-expand-lg navbar-light bg-light">
+			<a class="navbar-brand" href="#">nombreMarca</a>
+			<a class="nav-link" href="AltaVkr.php">dar de alta</a><br>
+			<a class="nav-link" href="ConsultaVestidos.php">informacion de vestidos</a><br>
+			<a class="nav-link" href="ConsultaProveedores.php">informacion de proveedores</a><br>
+			<a class="nav-link" href="ConsultaCompras.php">compras y ventas </a><br>	
+			<a class="nav-link" href="index2.php"> index2</a>
+			<!-- https://getbootstrap.com/docs/4.3/components/navbar/ -->
 
 		</div>
 		<div class="cont3">
